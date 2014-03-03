@@ -1,6 +1,6 @@
 require 'test/unit'
-require 'walker'
-require 'page_object_comparator'
+require 'calabash-extras/walker'
+require 'calabash-extras/page_object_comparator'
 
 class WalkerTest < Test::Unit::TestCase
 

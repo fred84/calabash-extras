@@ -1,6 +1,6 @@
 require 'test/unit'
 require 'yaml'
-require 'application_handler'
+require 'calabash-extras/application_handler'
 
 module Calabash
   module Extras

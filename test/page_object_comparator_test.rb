@@ -1,5 +1,5 @@
 require 'test/unit'
-require 'page_object_comparator'
+require 'calabash-extras/page_object_comparator'
 
 class PageObjectComparatorTest < Test::Unit::TestCase
 

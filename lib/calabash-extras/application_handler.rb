@@ -25,10 +25,10 @@ module Calabash
       def start_device
         case @conf['os']
           when 'android'
-            require 'android_runner'
+            require 'calabash-extras/android_runner'
             @@device = Calabash::Extras::AndroidRunner.new(@conf['android'])
           when 'ios'
-            require 'ios_runner'
+            require 'calabash-extras/ios_runner'
             @@device = Calabash::Extras::IosRunner.new(@conf['ios'])
           else
             raise 'Unsupported os type: "%s"' % @conf['os']

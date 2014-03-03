@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = 'calabash-extras'
-  spec.version       = '0.0.1'
+  spec.version       = '0.0.2'
   spec.authors       = ['Sergey Galkin']
   spec.email         = ['sergey@galkin.me']
   spec.description   = %q{TestCase and page traversal tool for writing xunit tests for Android and Ios apps}
